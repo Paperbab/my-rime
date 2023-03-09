@@ -57,7 +57,6 @@ speller:
     - derive/^([aoe])([ioun])$/$1$1$2/
     - derive/([aei])n$/$1ng/ # en => eng, in => ing
     - derive/([aei])ng$/$1n/ # eng => en, ing => in
-
     - xform/^([aoe])(ng)?$/$1$1$2/
     - xform/iu$/Q/
     - xform/(.)ei$/$1W/
